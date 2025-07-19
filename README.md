@@ -1,8 +1,8 @@
 
-# Groq API Proxy
-vercel-groq-api
+# Gemini API Proxy
+vercel-gemini-api
 
-A simple proxy service for Groq API using Vercel Edge Functions.
+A simple proxy service for gemini API using Vercel Edge Functions.
 
 ## Features
 
@@ -13,11 +13,11 @@ A simple proxy service for Groq API using Vercel Edge Functions.
 
 ## Usage
 
-After deployment, replace `api.groq.com` with your Vercel domain:
+After deployment, replace `api.gemini.com` with your Vercel domain:
 
 ```bash
 # Original
-curl https://api.groq.com/v1/models
+curl https://api.gemini.com/v1/models
 
 # Through proxy
 curl https://your-proxy.vercel.app/v1/models

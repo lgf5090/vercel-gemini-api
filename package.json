@@ -1,7 +1,7 @@
 {
   "name": "vercel-gemini-api",
   "version": "1.0.0",
-  "description": "Groq API proxy using Vercel Edge Functions",
+  "description": "Gemini API proxy using Vercel Edge Functions",
   "main": "index.js",
   "scripts": {
     "dev": "vercel dev",
