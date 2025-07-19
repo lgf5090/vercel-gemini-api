@@ -3,7 +3,7 @@ export const config = {
 };
 
 export default async function handler(request) {
-  const API_HOST = "api.groq.com";
+  const API_HOST = "generativelanguage.googleapis.com";
   
   try {
     // 获取原始 URL 并替换 host
